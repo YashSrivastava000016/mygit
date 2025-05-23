@@ -1,0 +1,13 @@
+name: Email Echo Action
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: 23f1000016@ds.study.iitm.ac.in
+        run: echo "Hello from GitHub Actions!"
